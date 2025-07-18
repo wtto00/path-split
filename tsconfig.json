@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": false,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "lib": ["esnext", "dom"],
+    "types": ["@mastergo/plugin-typings"],
+    "paths": {
+      "@lib/*": ["./lib/*"]
+    }
+  },
+  "include": ["./typings/*.d.ts", "./lib/**/*.ts"]
+}
